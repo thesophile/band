@@ -138,6 +138,11 @@ html, body {
     padding: 10px 20px;
 }
 
+.btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+
 .padding{
     padding: 50px 16px;
 }
@@ -192,6 +197,10 @@ html, body {
     width: 32%;
 }
 
+.inside-block img:hover{
+    opacity: 0.5;
+}
+ 
 .small-width{
     width: 48%;
 }
