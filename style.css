@@ -22,14 +22,19 @@ nav{
 h1, h2, h3, h4, h5, h6 {
     font-family: "Segoe UI",Arial,sans-serif;
     font-weight: 400;
-    margin: 10px 0;
+    margin:  0;
 }
 
 header h2{
-    margin: 12px 25px;
+    padding: 12px 25px;
     font-size: medium;
     font-weight:normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h2:hover{
+    background-color: #ccc;
+    color:black;
 }
 
 img{
@@ -69,6 +74,12 @@ img{
     z-index: 1;
     color: white;
 }
+
+.search:hover{
+    background-color: red;
+    
+}
+
 
 .centered *{
     margin: 10px;
@@ -211,7 +222,7 @@ input{
 }
 
 
-.fa{
+.fa-search{
     color: white;
     font-size: larger;
 }
@@ -224,4 +235,9 @@ input{
 
 .width-50{
     width: 50px;
+}
+
+
+.black-text{
+    color: black;
 }
