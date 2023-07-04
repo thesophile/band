@@ -27,3 +27,17 @@ function startTimer() {
     setInterval(displayNextImage, 3000);
 
 }
+
+
+const dropdown = document.getElementsByClassName("dropdown")[0];
+
+dropdown.addEventListener("mouseenter",function(){
+    $(".more")[0].style.background="#ccc";
+    $(".more")[0].style.color="black";
+    $(".fa-caret-down")[0].style.color="black";
+})
+
+dropdown.addEventListener("mouseleave",function(){
+    $(".more")[0].style.background="";
+    $(".more")[0].style.color="";
+})

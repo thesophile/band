@@ -262,6 +262,7 @@ input{
 
 .dropdown{
     position: relative;
+    z-index: 3;
 }
 
 .more{
@@ -283,20 +284,16 @@ input{
     padding:  10px 20px;
 }
 
-.more-items p:hover{
+.more-items p:hover,.more:hover~.more{
     background-color: #ccc;
 }
 
-/* .more-items p:hover~.more{
-    background-color: #ccc;
-} */
 
 .more-items:hover,.more:hover~.more-items{
     display: block;
 
 }
 
-/* .more-items:hover, */
 .more:hover{
 
     background-color: #ccc;
@@ -306,3 +303,4 @@ input{
     }
      
 }
+
