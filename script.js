@@ -40,4 +40,5 @@ dropdown.addEventListener("mouseenter",function(){
 dropdown.addEventListener("mouseleave",function(){
     $(".more")[0].style.background="";
     $(".more")[0].style.color="";
+    $(".fa-caret-down")[0].style.color="";
 })
