@@ -307,5 +307,15 @@ input{
 
 .footer{
     color: black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
 }
 
+.footer .fa{
+    font-size: 25px;
+}
+
+.powered{
+    margin-top: 10px;
+}
